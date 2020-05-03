@@ -1,0 +1,188 @@
+/* use components\footer; */
+.footer {
+    background: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 0px 50px;
+    color: rgba(0, 0, 0, 0.3);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.footer-links {
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    padding: 0px 25px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.footer-links a {
+    color: black;
+    opacity: 0.85;
+    font-size: 1.2rem;
+    padding: 0px 25px;
+    font-weight: 400;
+}
+.footer-links a:hover {
+    opacity: 1;
+    color: black;
+}
+.footer .fa-heart {
+    color: black;
+}
+
+.footer-copyright {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-copyright a {
+    color: black;
+}
+
+.footer-copyright a:hover {
+    text-decoration: none;
+    opacity: 0.8;
+    color: black;
+}
+
+/* Navbar Logo and Links  */
+
+.navbar-logo {
+    width: 100px;
+    height: 50px;
+}
+
+.navbar-logo img {
+    height: 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    margin: 20px;
+    z-index: 100;
+    transition: background-color 1s ease 0s;
+    height: 110px;
+}
+
+.navbar-list-items {
+    display: flex;
+    text-decoration: none;
+}
+
+.navbar-item {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    align-items: center;
+    font-size: 18px;
+    padding: 0px 25px;
+    font-weight: 100;
+    margin-top: 44px;
+    margin-left: 66px;
+    list-style-type: none;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: black;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size 0.3s;
+}
+
+.navbar-logo {
+    align-items: center;
+}
+
+.navbar-item a:hover,
+.navbar-item a:focus {
+    background-size: 100% 2px;
+    opacity: 0.8;
+}
+
+/* Header images effect */
+.landing {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 140px;
+    height: 700px;
+}
+
+.distortion {
+    width: 450px;
+    height: 180px
+    
+    align-self: right;
+}
+
+.intro {
+    align-self: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 80px;
+    width: 600px;
+}
+
+.intro h2 {
+    font-size: 26px;
+    text-transform: capitalize;
+}
+
+.intro h1 {
+    font-size: 48px;
+}
+
+.title-effect {
+    color: #d4d4d4;
+}
+
+.quotes {
+    font-size: 34px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+}
+.author-name {
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.main-button { 
+    background-color: transparent;
+    background-image: none;
+    
+}
+
+.main-button a {
+    text-decoration: none;
+    color: black;
+    border: 0.6px solid #d4d4d4;
+    padding: 20px;
+    width: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: 100;
+    font-size: 16px;
+    
+}
+
+.main-button a:hover i:hover {
+    opacity: 0.8;
+    transition: background-size 0.3s;
+}
+
+.main-button a:hover {
+    opacity: 0.8;
+    transition: background-size 0.3s;
+}
+
+.fa-arrow-right {
+    padding: 24px;
+}
