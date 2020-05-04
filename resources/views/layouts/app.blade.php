@@ -37,9 +37,7 @@
     <div id="app">
             @include('shared.navbar')
             @include('inc.messages')
-        <div class="container">
             @yield('content')
-        </div>
         <div class="footer">
             @include('shared.footer')
         </div>

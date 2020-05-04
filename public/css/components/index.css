@@ -1,4 +1,5 @@
-/* use components\footer; */
+
+/* footer custom style */
 .footer {
     background: #ffffff;
     display: flex;
@@ -109,7 +110,8 @@
     opacity: 0.8;
 }
 
-/* Header images effect */
+/* Header style */
+
 .landing {
     display: flex;
     justify-content: space-between;
@@ -185,4 +187,72 @@
 
 .fa-arrow-right {
     padding: 24px;
+}
+
+/* Newsletter  */
+
+.newsletter {
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: 100;
+    display:flex;
+    padding: 60px;
+    justify-content: space-around;
+    background-color: #f7f7f7;
+
+}
+.form-input-button {
+  font-family: FontAwesome, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.newsletter-title {
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.newsletter-text {
+    margin-bottom: 44px;
+}
+
+.newsletter-media-icons {
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 0.85rem;
+    padding: 0px 25px;
+    text-decoration: none;
+    font-weight: 400;
+}
+.newsletter-media-icons a {
+    display: flex;
+    color: #404040;
+    opacity: 0.85;
+    font-size: 2.4rem;
+    padding: 0px 25px;
+    font-weight: 400;
+}
+.newsletter-media-icons a:hover {
+    opacity: 1;
+    color: black;
+    text-decoration: none;
+}
+
+.newsletter-link {
+    background-color: transparent;
+    text-decoration: none;
+    color: #d4d4d4;
+    border: 0.6px solid #d4d4d4;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: 100;
+    font-size: 16px;
+    height: 57px;
+    padding: 26px;
+}
+
+a.newsletter-link {
+    text-decoration: none;
+    color: lightgrey;
+
 }
