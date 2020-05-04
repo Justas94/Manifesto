@@ -13,17 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
 Route::get('/', 'PagesController@index');
 Route::get('/about', 'PagesController@about');
 Route::get('/services', 'PagesController@services');
-
-Route::get('/users/{id}', function ($id) {
-    return 'This is a user ' . $id;
-});
-
+Route::get('/edit/user/', 'UsersController@edit')->name('user.edit');
+Route::post('/edit/user/', 'UsersController@update')->name('user.update');
 
 Auth::routes();
 
