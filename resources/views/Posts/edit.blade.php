@@ -1,20 +1,22 @@
 @extends('layouts.app')
 
 @section('content')
-  <h1>Edit Posts</h1>
-  {!! Form::open(['action' => ['PostsController@update',$post->id], 'method' => 'POST', 'enctype' => 'multipart/form-data']) !!}
-    <div class="form-group">
-      {{Form::label('title', 'Title')}}
-      {{Form::text('title', $post->title, ['class' => 'form-control', 'placeholder' => 'Title'])}}
-    </div>
-    <div class="form-group">
-      {{Form::label('body', 'Body')}}
-      {{Form::textarea('body', $post->body, ['class' => 'form-control', 'placeholder' => 'Body'])}}
-    </div>
-    <div class="form-group">
-      {{Form::file('cover_image')}}
-    </div>
-    {{Form::hidden('_method', 'PUT')}}
-    {{Form::submit('Submit', ['class' => 'btn btn-primary'])}}
-  {!! Form::close() !!}
+  <h1 class="article-title">Create Article</h1>
+  <hr>
+  <div class="form-blog">
+    {{Form::label('title', 'Title', ['style' => 'font-size: 24px; opacity: 0.9;'])}}
+    {{Form::text('title', '', ['class' => 'form-content', 'placeholder' => 'Title'])}}
+  <div class="form-blog">
+    {{Form::label('body', 'Body', ['style' => 'font-size: 24px; opacity: 0.9;' ])}}
+    {{Form::textarea('body', '', ['class' => 'form-content', 'placeholder' => 'Describe your post and project details'])}}
+  </div>
+
+  <div class="form-blog">
+    {{Form::file('cover_image', ['class' => 'upload-button', 'style' => 'content: Justas' ] )}}
+  </div>
+  <div class="form-blog">
+    {{Form::submit('SUBMIT', ['class' => 'submit-form'])}}
+  </div>
+{!! Form::close() !!}
 @endsection
+

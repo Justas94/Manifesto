@@ -44,12 +44,13 @@ class UsersController extends Controller
             if(Auth::user()->email === $request['email']) {
                 $validate = $request->validate([
                 'name' => 'required|min:2',
-                'email' => 'required|email'
+                'email' => 'required|email',
             ]);
             } else {
                 $validate = $request->validate([
                 'name' => 'required|min:2',
-                'email' => 'required|email|unique:users'
+                'email' => 'required|email|unique:users',
+            
             ]);
 
             }

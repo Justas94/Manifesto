@@ -397,3 +397,39 @@ a.newsletter-link {
     text-decoration: none;
     transition: color 0.4s ease;
 }
+
+/* Form to create article */
+
+.article-title {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 16px;
+}
+
+.form-blog {
+    color: black;
+    padding: 12px;
+    width: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+.form-content {
+    border: 0.6px solid #d4d4d4;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.submit-form {
+    text-decoration: none;
+    border: 0.6px solid #d4d4d4;
+    background-color: transparent;
+    padding: 12px;
+    width: 140px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.submit-form:hover {
+    opacity: 0.4;
+}

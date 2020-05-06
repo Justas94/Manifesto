@@ -19,8 +19,8 @@
             <h2><span class="quotes">“</span>Surrealism is destructive, but it destroys only what it considers to be shackles limiting our vision.<span class="quotes">“</span> </h2>
             <p class="author-name">― Salvador Dali</p>
             </div>
-            <div class="main-button">
-              <a href="">JOIN OUR COMMUNITY <i class="fas fa-arrow-right"></i></a>
+            <div class="main-button" >
+              <a href="" >JOIN OUR COMMUNITY <i class="fas fa-arrow-right"></i></a>
             </div>
           
         </div>

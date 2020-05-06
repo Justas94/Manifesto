@@ -38,10 +38,10 @@
                     <div>
                 <ul>
                     <li>
-                        <a href="/about">CREATE ARTICLE</a>
+                        <a href="{{ route('posts.create') }}">CREATE ARTICLE</a>
                     </li>
                     <li>
-                        <a href="/services">ARTICLES</a>
+                        <a href="{{ route('posts.index') }}">ARTICLES</a>
                     </li>
                     <li>
                         <a  href="/posts">GALLERY</a>
