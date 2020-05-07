@@ -1,3 +1,7 @@
+/* .container {
+    min-height: calc(100vh - 70px);
+} */
+
 /* footer custom style */
 .footer {
     background: #ffffff;
@@ -192,9 +196,9 @@
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-weight: 100;
     display: flex;
-    padding: 60px;
-    justify-content: space-around;
-    background-color: #f7f7f7;
+    padding: 40px;
+    justify-content: space-between;
+    background-color: transparent;
 }
 .form-input-button {
     font-family: FontAwesome, Cambria, Cochin, Georgia, Times, "Times New Roman",
@@ -202,7 +206,7 @@
 }
 
 .newsletter-title {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 100;
     margin-bottom: 64px;
     text-align: center;
@@ -216,7 +220,7 @@
     color: black;
     display: flex;
     align-items: center;
-    font-size: 0.85rem;
+    font-size: 0.75rem;
     padding: 0px 25px;
     text-decoration: none;
     font-weight: 400;
@@ -225,7 +229,7 @@
     display: flex;
     color: #404040;
     opacity: 0.85;
-    font-size: 2.4rem;
+    font-size: 2.3rem;
     padding: 0px 25px;
     font-weight: 400;
 }
@@ -242,7 +246,7 @@
     border: 0.6px solid #d4d4d4;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-weight: 100;
-    font-size: 16px;
+    font-size: 14px;
     height: 57px;
     padding: 26px;
 }
@@ -432,4 +436,77 @@ a.newsletter-link {
 
 .submit-form:hover {
     opacity: 0.4;
+}
+
+/* Articles style */
+
+.flexbox-cards {
+    text-align: center;
+    margin-top: 50px;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.second-card-image {
+    width: 360;
+    height: 240px;
+    object-fit: cover;
+}
+
+.card-content {
+    width: 480px;
+    text-align: left;
+    margin-top: 24px;
+    margin-left: 58px;
+}
+
+.card-small-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.articles-title {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 40px;
+    margin: 60px;
+}
+
+.articles-content {
+    padding: 14px;
+    text-align: center;
+}
+
+.articles-flex-box {
+    display: flex;
+    background-color: #f7f7f7;
+}
+
+.articles-small-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.articles-post-title {
+    text-decoration: none;
+    color: black;
+    font-size: 44px;
+    padding: 14px 0px 14px 30px;
+}
+
+a.articles-post-title:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.image-size {
+    width: 620px;
+    height: 720px;
+    object-fit: cover;
 }

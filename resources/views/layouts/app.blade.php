@@ -20,6 +20,9 @@
       integrity="sha256-gSh8eotzb/CVvCREGPUNgIWuDnTYnZvVOQnRrP1eDjI="
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    
+    
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -31,6 +34,7 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/components/index.css') }}" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body style="background-color: white">
@@ -41,16 +45,8 @@
         <div class="footer">
             @include('shared.footer')
         </div>
-        {{-- <style>
-        .container {
-            min-height: calc(100vh - 70px);
-        }
-        .footer {
-         height: 80px;
-        }
-    </style> --}}
     </div>
-    
+    <script src="{{ asset('js/parallax.js') }}"></script>
     <script src="{{ asset('js/hover.js') }}"></script>
     <script src="{{ asset('js/app2.js') }}"></script>
     <script>

@@ -1,6 +1,5 @@
 @extends('layouts.app')
   @section('content')
-  <div class="container">
     <div class="landing">
       
         <div class="intro">
@@ -29,8 +28,8 @@
         
       </div>
     </div>
-  </div>
-  <div class="newsletter">
+  <div class="newsletter" >
     @include('.shared.newsletter')
   </div>
   @endsection
+  

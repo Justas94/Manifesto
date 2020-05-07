@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
+
   <h1 class="article-title">Create Article</h1>
   <hr>
   <div class="form-blog">
@@ -18,5 +19,6 @@
     {{Form::submit('SUBMIT', ['class' => 'submit-form'])}}
   </div>
 {!! Form::close() !!}
+</div>
 @endsection
 
